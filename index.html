@@ -11,7 +11,7 @@
 <body>
 <script>
 $(document).ready(function(){
-	$('a').click(function(event){
+	$('.link').click(function(event){
 		event.preventDefault();
 		var linkhref = $(this).attr("href");
 		$("html,body").animate({
@@ -32,9 +32,9 @@ $(document).ready(function(){
 	<div class = "container">
 		<div id ="nav_bar">
 			<ul>
-				<a href="#top_content"><li>HOME</li></a>
-				<a href="#middle_part"><li>ABOUT</li></a>
-				<a href="#bottom_part"><li>CONTACT</li></a>
+				<a class = "link" href="#top_content"><li>HOME</li></a>
+				<a class = "link" href="#middle_part"><li>ABOUT</li></a>
+				<a class = "link" href="#bottom_part"><li>CONTACT</li></a>
 			</ul>
 		</div> <!-- ends id nav_bar -->
 		<div id = "top_content">
