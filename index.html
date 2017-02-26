@@ -20,9 +20,9 @@ $(document).ready(function(){
 	});
 	$(window).scroll(function() { 
         	if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
-          $(".nav_bar").css("background-color", "grey"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+          $(".nav_bar").css("background-color", "black"); // if yes, then change the color of class "navbar-fixed-top" black
         } else {
-          $(".nav_bar").css("background-color", "black"); // if not, change it back to transparent
+          $(".nav_bar").css("background-color", "grey"); // if not, change it back to grey
         }
       });
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
 				<h2>They say</h2>
 				<h1 class = "statement">Man is but a Social Being</h1>
 				<br>
-				<p>"What better way to <br>advertise yourself
+				<p class= "statement2">"What better way to <br>advertise yourself
 					than to have your <br><b>own</b> <br>website."
 				</p>
 			</div> <!-- ending of div id "top_content" -->
@@ -55,11 +55,12 @@ $(document).ready(function(){
  -->
  			<div id = "bottom_part">
 			<h2 class = "contact">CONTACT</h2>
-			<center><p>Whatsapp:+254722493149</p>
-			<p>Skype:bradley.bethwel.juma</p>
+			<center><p class = "info">Whatsapp:+254722493149</p>
+			<p class = "info">Skype:bradley.bethwel.juma</p>
 
 			<a href="https://www.instagram.com/bradley_juma/" target="_blank"><img class = "insta" src="images/instagramicon.png"></a>
 			</center>
+			<br><br><br><br><br><br><br><br>
 		</div> <!-- ends id bottom_part -->
 	</div> <!-- ends class container -->
 </body>

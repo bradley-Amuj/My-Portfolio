@@ -15,8 +15,8 @@ li{
 	float: left;
 }
 #nav_bar{
-	background-color: black;
 	position: fixed;
+	width: 100%;
 }
 a{
 	color: white;
@@ -84,10 +84,39 @@ img{
 	width: 100px;
 	height: 100px;
 }
-@media screen and (max-width: 500){
+@media screen and (max-width: 960){
  	img{
- 		width: 500px;
- 		height: 500px;
+ 		width: 100%;
+ 		height: 400px;
+ 	}
+ 	.info{
+ 		font-size: 20px;
  	}	
-
+ 	.statement{
+ 		font-size: 40px;
+ 	}
+ 	#nav_bar{
+ 		width: 100%;
+ 	}
+ 	.statement2{
+ 		font-size: 30px;
+ 	}
+}
+@media screen and (max-width:480 ){
+	img{
+ 		width: 100%;
+ 		height: 400px;
+ 	}
+ 	.info{
+ 		font-size: 20px;
+ 	}	
+ 	.statement{
+ 		font-size: 30px;
+ 	}
+ 	#nav_bar{
+ 		width: 100%;
+ 	}
+ 	.statement2{
+ 		font-size: 20px;
+ 	}
 }
