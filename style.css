@@ -6,11 +6,11 @@ body,html{
 .container{
 	width: 100%;
 }
-ul{
+.links{
 	list-style:none;
 	display: inline-block;
 }
-li{
+#link{
 	margin-right:20px;
 	float: left;
 }
@@ -84,6 +84,12 @@ img{
 	width: 100px;
 	height: 100px;
 }
+.left{
+	text-align: center;
+}
+li{
+	list-style: none;
+}
 @media screen and (max-width: 960){
  	img{
  		width: 100%;
@@ -101,8 +107,7 @@ img{
  	.statement2{
  		font-size: 30px;
  	}
-}
-@media screen and (max-width:480 ){
+@media screen and (max-width:480){
 	img{
  		width: 100%;
  		height: 400px;

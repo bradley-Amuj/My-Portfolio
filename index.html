@@ -26,15 +26,20 @@ $(document).ready(function(){
         }
       });
 
-
+			setInterval(function(){
+				alert("Site under-development");
+			},10000);
+			$("body").click(function(){
+				window.close(); 
+			});
 });
 </script>
 	<div class = "container">
 		<div id ="nav_bar">
-			<ul>
-				<a class = "link" href="#top_content"><li>HOME</li></a>
-				<a class = "link" href="#middle_part"><li>ABOUT</li></a>
-				<a class = "link" href="#bottom_part"><li>CONTACT</li></a>
+			<ul class = "links">
+				<a class = "link" href="#top_content"><li id = "link">HOME</li></a>
+				<a class = "link" href="#middle_part"><li id = "link">ABOUT</li></a>
+				<a class = "link" href="#bottom_part"><li id = "link">CONTACT</li></a>
 			</ul>
 		</div> <!-- ends id nav_bar -->
 		<div id = "top_content">
@@ -48,8 +53,18 @@ $(document).ready(function(){
 			<div id ="middle_part">
 				<br><br><br><br>
 				<h1 class= "about">ABOUT</h1>
-				<div class = "image_left">
-					<img src="images/me.jpg">
+				<div class = "left">
+					<h2 class = "skills">SKILLS</h2>
+					I am an upcoming web developed and part-time programmer.Adept in  the following languages:
+					<ul class = "languages">
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>jQuery</li>
+						<li>Javascript</li>
+						<li>Php</li>
+						<li>mySql</li>
+						<li>Java(currently Learning)</li>
+					</ul>
 				</div>
 			</div> <!-- ends id middle-part
  -->
