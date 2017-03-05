@@ -37,6 +37,7 @@ a:hover{
 }
 #bottom_part{
 	background-color: black;
+	margin-bottom: 0px;
 }
 .statement{
 	text-shadow: 0 0 0.1em white,0 0 0.2em white,0 0 0.3em grey,0 0 0.4em grey,0 0 0.5em grey,0 0 0.6em purple;
@@ -89,6 +90,27 @@ img{
 }
 li{
 	list-style: none;
+}
+#section1{
+	float: left;
+	background-color: black;
+	margin-top: 0px;
+	padding-top: 0px;
+
+}
+.contact{
+	margin: 0px;
+}
+#section2{
+	float: right;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 603px;	
+	height: 483px;
+}
+form{
+	text-align: center;
 }
 @media screen and (max-width: 960){
  	img{
